@@ -1,0 +1,12 @@
+/*=============== PORTFOLIO CONTAINER ===============*/
+
+.portfolio {
+  display: flex;
+  background: $background-color-2;
+  height: 80vh;
+  width: 85vw;
+  max-width: 1200px;
+  border-radius: $border-radius;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  color: #bd83b8;
+}

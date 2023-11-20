@@ -1,0 +1,22 @@
+/*=============== SCROLLBAR ===============*/
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.content:hover::-webkit-scrollbar-thumb {
+  background: $light-grey;
+}
+
+.col-2:hover::-webkit-scrollbar-thumb {
+  background: $light-grey;
+}

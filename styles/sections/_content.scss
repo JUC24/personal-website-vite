@@ -1,0 +1,19 @@
+/*=============== CONTENT ===============*/
+
+.content {
+  border-radius: $border-radius;
+  background: white;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: auto;
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  margin: 0 50px;
+}

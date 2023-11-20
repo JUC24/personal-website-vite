@@ -1,0 +1,50 @@
+/*=============== ABOUT SECTION ===============*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-item {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.language {
+  margin-bottom: 15px;
+  p {
+    margin: 0;
+  }
+}
+
+.bar {
+  background: rgba(0, 0, 0, 0.1);
+  display: block;
+  height: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar {
+  span {
+    height: 8px;
+    float: left;
+    background: $accent-color;
+  }
+}
+
+.spanish {
+  width: 100%;
+}
+
+.english {
+  width: 80%;
+}
+
+.skill {
+  background-color: $accent-color;
+  color: #fff;
+  line-height: 35px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
