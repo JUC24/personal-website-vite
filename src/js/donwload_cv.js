@@ -1,7 +1,7 @@
 const downIoader = document
   .getElementById("downIoadCV")
   .addEventListener("click", function () {
-    const cvUrl = "/textFile/jason-cv.pdf";
+    const cvUrl = "/textFile/jason-umaña-cv-inglish.pdf";
 
     const link = document.createElement("a");
     link.href = cvUrl;
